@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    background-image: url('https://getwallpapers.com/wallpaper/full/7/e/3/66203.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    color: hsl(250, 87%, 52%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  #date-display {
+    margin: 20px 0;
+    font-size: 1.2em;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+  input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    background-color:aliceblue;
+    color: #e0e0e0;
+    width: calc(100% - 100px);
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1c86ee;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 4px;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+    color: #888888;
+  }
+  
+  li span {
+    cursor: pointer;
+  }
+  
+  li button {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #e60000;
+  }
+  
